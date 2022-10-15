@@ -34,6 +34,7 @@ Context API는 React 에서 제공해주기 때문에 따로 설치 과정이 �
 이런식으로 아까 생성한 Context 파일명.Provider 로 감싸면 안에 있는 하위 컴포넌트 에게 Value Props 를 전달한다.
 
 <h3>useContext</h3>
+
 ```
     import { useContext } from "react";
     import { DataContext } from "../../context/DataContext";
